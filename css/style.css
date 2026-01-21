@@ -56,7 +56,8 @@ a {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 20px;
+    white-space: nowrap;
 }
 
 .nav-links a {
@@ -290,7 +291,7 @@ footer {
 .menu-price {
     font-size: 1.2rem;
     font-weight: bold;
-    white-space: wrap;
+    white-space: nowrap;
 }
 
 .menu-image {
